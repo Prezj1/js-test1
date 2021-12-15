@@ -1,13 +1,12 @@
-// Task: generate 50 copies of an object with the following shape
-//
-// The `name` can be any string at all
-// The `group` should be either "x", "y" or "z" and each of those letters must appear at least once in the generated objects
-// The `id` must be a number which is unique amongst all the generated objects
-//
-// {
-//   name: string,
-//   group: string,
-//   id: number
-// }
-//
+// Generate 50 objects
+// Each object needs three properties:
+// - name
+// - group
+// - id
+
+// The properties have the following rules:
+
+// - name must be a string
+// - id must be a number. Specifically, an integer and must be unique amongst the objects (no two objects can have the same id)
+// - group must be one of the following strings: "x", "y" or "z". Each of these strings needs representing in the set of generated objects (at least one object set to "x", one to "y" and one to "z")
 
